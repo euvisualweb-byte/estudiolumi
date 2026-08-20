@@ -10,6 +10,7 @@
     margin: auto;
     z-index: 2;
     font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
 } 
 
 .promo img {
@@ -20,7 +21,7 @@
 
 .promo h1 {
     font-size: 3rem;
-    color: var(--variable-color3, rgb(182, 179, 179));
+    color: var(--variable-color2, rgb(182, 179, 179));
     font-family: montserrat, sans-serif;
     font-weight: 700;
 }
@@ -28,14 +29,16 @@
 .promo h2 {
     font-size: 2rem;
     text-align: center;
-    color: var(--variable-color3, rgb(182, 179, 179));
+    color: var(--variable-color2, rgb(182, 179, 179));
     font-family: montserrat, sans-serif;
     font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 .promo p {
     font-size: 1.2rem;
-    color: var(--variable-color3, rgb(218, 212, 210));
+    color: var(--variable-color2, rgb(59, 59, 58));
     text-align: center;
     margin-bottom: 20px;
     font-family: montserrat, sans-serif;
@@ -68,13 +71,11 @@ button:hover {
 }
 
 video {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
     object-fit: cover;
-    position: fixed;
     z-index: -1;
 }
 

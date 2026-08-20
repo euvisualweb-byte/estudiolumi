@@ -11,9 +11,13 @@
   --variable-color3: white;
   --variable-color4: rgb(207, 202, 202);
   --variable-color5: #9e9995;
-  --variable-color6: #132f3a;
+  --variable-color6: hsl(0, 0%, 1%);
   --variable-color7: #AB0C00;
-  --variable-color8: #eeeceb;
+  --variable-color8: #1f1e1e;
+}
+
+body {
+  margin: 0;
 }
 
 a {
@@ -31,26 +35,230 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: xx-large;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 h1 {
-  color: var(--variable-color3);
+  color: var(--variable-color6);
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
   font-size: 3rem;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 h2 {
-  color: var(--variable-color4, rgb(218, 212, 210));
+  color: var(--variable-color6);
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
   margin: 10px 0;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+h5 {
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 p {
-  color: var(--variable-color4);
-  font-family: "Roboto", sans-serif;
+  color: var(--variable-color6);
+  font-family: montserrat, sans-serif;
   font-weight: 500;
   text-transform: none;
-  text-align: center;
 }
 
+.container {
+  background-color: #fcfcfc;
+  width: 100vw;
+  max-width: max-content;
+  padding: 0px 20px;
+  box-shadow: #161616;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 10px;
+}
+
+.container4 {
+  background-color: #fcfcfd;
+  width: auto;
+  max-width: max-content;
+  padding: 20px 20px;
+  border-radius: 20px;
+  box-shadow: #161616;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container5 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: 10px;
+  gap: 20px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  justify-content: center;
+}
+
+.container6 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+  justify-content: center;
+}
+
+.container7 {
+  margin: 0 10%;
+  display: block;
+  padding: 20px 20px;
+  gap: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.section {
+  margin: 5rem 5rem;
+}
+
+.section h2 {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.container10 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container11 {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: var(--variable-color6);
+}
+
+.footer {
+  background-color: var(--variable-color6);
+  padding: 50px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: rgb(248, 245, 245);
+  margin-bottom: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--variable-color1);
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--variable-color3);
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: var(--variable-color1);
+  padding-left: 6px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: var(--variable-color8);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.social-link a:hover {
+  background-color: var(--variable-color1);
+}
+
+.container11 .grupo-2 {
+  background-color: var(--variable-color6);
+  justify-content: center;
+  padding: 10px 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .footer-row {
+    width: 100%;
+  }
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -172,6 +380,7 @@ p {
   margin: auto;
   z-index: 2;
   font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
 }
 
 .promo img {
@@ -182,7 +391,7 @@ p {
 
 .promo h1 {
   font-size: 3rem;
-  color: var(--variable-color3, rgb(182, 179, 179));
+  color: var(--variable-color2, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
   font-weight: 700;
 }
@@ -190,14 +399,16 @@ p {
 .promo h2 {
   font-size: 2rem;
   text-align: center;
-  color: var(--variable-color3, rgb(182, 179, 179));
+  color: var(--variable-color2, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
   font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .promo p {
   font-size: 1.2rem;
-  color: var(--variable-color3, rgb(218, 212, 210));
+  color: var(--variable-color2, rgb(59, 59, 58));
   text-align: center;
   margin-bottom: 20px;
   font-family: montserrat, sans-serif;
@@ -229,13 +440,11 @@ button:hover {
 }
 
 video {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
   object-fit: cover;
-  position: fixed;
   z-index: -1;
 }
 
@@ -261,6 +470,259 @@ video {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* CARDS ANIMADAS PERFILES MUSICOS Y ESTABLECIMIENTOS */
+.container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 20px;
+  background: rgb(253, 253, 253);
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+  width: 440px;
+  height: 540px;
+  transition: all 400ms ease;
+  overflow: hidden;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  transform: translate(-3%);
+}
+
+.card figure {
+  height: 600px;
+}
+
+.card img {
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  object-fit: contain;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  font-family: roboto, sans-serif;
+  color: var(--variable-color6);
+  letter-spacing: 0px;
+  font-weight: 100px;
+  text-align: center;
+  padding: 3%;
+}
+
+.card p {
+  text-align: left;
+  text-transform: none;
+  font-family: montserrat, sans-serif;
+  color: var(--variable-color2);
+  padding: 5px;
+  font-size: 14px;
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.card button {
+  display: block;
+  border: 0;
+  outline: 0;
+  background-color: var(--variable-color7);
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border-radius: 20px 20px;
+  margin: 2rem auto;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: montserrat, sans-serif;
+  font-size: 16px;
+}
+
+.content {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.cardp {
+  color: var(--variable-color5);
+}
+
+/* CARDS ZONA DE ANUNCIOS PAGINA COMUNIDAD */
+.container4 {
+  background-color: rgb(244, 246, 247);
+  width: 100vh;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card4 {
+  border-radius: 20px;
+  background-color: rgb(40, 57, 71);
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 410px;
+  transition: all 400ms ease;
+  overflow: hidden;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+
+.card4:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translate(-3%);
+}
+
+.card4 figure {
+  height: 200px;
+}
+
+.card4 img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card4 h4 {
+  font-weight: bold;
+  text-align: center;
+  text-shadow: rgb(167, 163, 163) 0 0 rgba(0, 0, 0, 0.3);
+  color: rgb(66, 159, 196);
+  padding: 10px;
+}
+
+.card4 p {
+  text-align: justify;
+  padding: 5px;
+  font-size: 14px;
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.card4 .btn {
+  display: block;
+  border: 0;
+  outline: 0;
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  margin: 2rem auto;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.content {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.cardp {
+  color: rgb(228, 235, 238);
+  font-family: poppins;
+  font-size: 16px;
+}
+
+.card-title .h4 {
+  color: white;
+}
+
+.scroll {
+  max-width: 100%;
+  margin: 10% 10%;
+  font-family: montserrat, sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.scroll h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--variable-color6);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.scroll p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--variable-color6);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.scroll img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 50%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+h1 {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 60%;
+  animation-fill-mode: both;
+}
+
+p {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 60%;
+  animation-fill-mode: both;
+}
+
+img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 60%;
+  animation-fill-mode: both;
 }
 
 /*# sourceMappingURL=styles.css.map */
