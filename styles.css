@@ -87,6 +87,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  text-decoration: none;
 }
 
 .container2 {
@@ -435,14 +436,17 @@ button {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
 }
 
 button:focus {
   outline: none;
+  text-decoration: none;
 }
 
 button:hover {
   transform: translate(0, -2px);
+  text-decoration: none;
 }
 
 video {
@@ -505,11 +509,13 @@ video {
   overflow: hidden;
   padding-bottom: 5px;
   margin: 10px;
+  text-decoration: none;
 }
 
 .card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   transform: translate(-3%);
+  text-decoration: none;
 }
 
 .card figure {
@@ -556,9 +562,10 @@ video {
   width: 200px;
   height: 50px;
   padding: 5px;
-  color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: var(--variable-color3);
   text-transform: uppercase;
-  border-radius: 20px 20px;
+  border-radius: 30px 30px;
   margin: 2rem auto;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -647,6 +654,7 @@ video {
   margin: 2rem auto;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .content {
