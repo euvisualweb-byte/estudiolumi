@@ -29,6 +29,11 @@ a {
     text-decoration: none;
 }
 
+main {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
 #hero {
     min-height: 100vh;
     position: relative;
@@ -36,7 +41,7 @@ a {
 
 .titulo1 {
     color: var(--variable-color);
-    font-family: "Bebas Neue", sans-serif;
+    font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
