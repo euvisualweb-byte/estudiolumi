@@ -15,6 +15,14 @@
 --variable-color6: hsl(0, 0%, 1%);
 --variable-color7: #AB0C00;
 --variable-color8: #1f1e1e;
+/*nidu*/
+--variable-color9: #f2f0f0;
+--variable-color10: #782e1e;
+--variable-color11: #bf7d65;
+--variable-color12: #8b9b7d;
+--variable-color13: #1d1d1b;
+
+
 }
 
 $color: #c51010;
@@ -23,6 +31,15 @@ $colorw: black;
 
 body {
     margin: 0;
+}
+
+.fondo {
+  background-image: url('img/FONDO NIDU 1.WEBP');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f2f0f0;
 }
 
 a {
@@ -101,7 +118,7 @@ p {
 
 .container2 {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1600px;
     height: auto;
     display: flex;
     flex-wrap: wrap;

@@ -17,6 +17,12 @@ body {
   margin: 0 auto;
   background-color: var(--variable-color6);
 }
+.container21 {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: var(--variable-color13);
+}
+
 
 
 .footer {
@@ -83,6 +89,87 @@ body {
     width: 100%;
   }
   .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* FOOTER NIDU */
+
+.footer1 {
+  background-image: url('img/FONDO NIDU 1.WEBP');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--variable-color12);
+  padding: 50px 0;
+}
+.footer1-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer1-links {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer1-links h4 {
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+  color: var(--variable-color13);
+  margin-bottom: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--variable-color1);
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.footer1-links ul li a {
+  font-family: montserrat, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--variable-color13);
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+.footer1-links ul li a:hover {
+  color: var(--variable-color1);
+  padding-left: 6px;
+}
+.social1-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: var(--variable-color13);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all .5s ease;
+}
+.social1-link a:hover {
+  background-color: var(--variable-color1);
+}
+.container21 .grupo-4 {
+  background-image: url('img/FONDO NIDU 1.WEBP');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--variable-color13);
+  justify-content: center;
+  padding: 10px 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+@media(max-width:991px) {
+  .footer1-row {
+    width: 100%;
+  }
+  .footer1-links {
     width: 100%;
     margin-bottom: 30px;
   }

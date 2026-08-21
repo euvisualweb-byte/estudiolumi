@@ -14,10 +14,25 @@
   --variable-color6: hsl(0, 0%, 1%);
   --variable-color7: #AB0C00;
   --variable-color8: #1f1e1e;
+  /*nidu*/
+  --variable-color9: #f2f0f0;
+  --variable-color10: #782e1e;
+  --variable-color11: #bf7d65;
+  --variable-color12: #8b9b7d;
+  --variable-color13: #1d1d1b;
 }
 
 body {
   margin: 0;
+}
+
+.fondo {
+  background-image: url("img/FONDO NIDU 1.WEBP");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f2f0f0;
 }
 
 a {
@@ -92,7 +107,7 @@ p {
 
 .container2 {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -190,6 +205,12 @@ body {
   background-color: var(--variable-color6);
 }
 
+.container21 {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: var(--variable-color13);
+}
+
 .footer {
   background-color: var(--variable-color6);
   padding: 50px 0;
@@ -261,6 +282,92 @@ body {
     width: 100%;
   }
   .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+/* FOOTER NIDU */
+.footer1 {
+  background-image: url("img/FONDO NIDU 1.WEBP");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--variable-color12);
+  padding: 50px 0;
+}
+
+.footer1-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer1-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer1-links h4 {
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+  color: var(--variable-color13);
+  margin-bottom: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--variable-color1);
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer1-links ul li a {
+  font-family: montserrat, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--variable-color13);
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.footer1-links ul li a:hover {
+  color: var(--variable-color1);
+  padding-left: 6px;
+}
+
+.social1-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: var(--variable-color13);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.social1-link a:hover {
+  background-color: var(--variable-color1);
+}
+
+.container21 .grupo-4 {
+  background-image: url("img/FONDO NIDU 1.WEBP");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--variable-color13);
+  justify-content: center;
+  padding: 10px 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .footer1-row {
+    width: 100%;
+  }
+  .footer1-links {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -469,6 +576,98 @@ video {
   mix-blend-mode: overlay;
 }
 
+/* PROMO NIDU */
+.promo1 {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #faf5f5;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  z-index: 2;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+
+.promo1 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.promo1 h1 {
+  font-size: 4rem;
+  color: var(--variable-color11, rgb(182, 179, 179));
+  font-family: montserrat, sans-serif;
+  font-weight: 900;
+}
+
+.promo1 h2 {
+  font-size: 3rem;
+  color: var(--variable-color10, rgb(182, 179, 179));
+  font-family: montserrat, sans-serif;
+  font-weight: 900;
+}
+
+.promo1 p {
+  font-size: 1.2rem;
+  color: var(--variable-color13, rgb(59, 59, 58));
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: montserrat, sans-serif;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px 0;
+  width: 200px;
+  font-size: 1.2rem;
+  background-color: #af4444;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  color: #faf5f5;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+button:hover {
+  transform: translate(0, -2px);
+  text-decoration: none;
+}
+
+video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(128, 125, 125, 0.5);
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -531,6 +730,15 @@ video {
   border-bottom-right-radius: 20px;
 }
 
+.card h2 {
+  text-transform: uppercase;
+  font-family: montserrat, serif;
+  color: var(--variable-color6);
+  letter-spacing: 0px;
+  font-weight: 100px;
+  text-align: center;
+}
+
 .card h3 {
   text-transform: uppercase;
   font-family: roboto, sans-serif;
@@ -542,7 +750,7 @@ video {
 }
 
 .card p {
-  text-align: left;
+  text-align: center;
   text-transform: none;
   font-family: montserrat, sans-serif;
   color: var(--variable-color2);
@@ -705,11 +913,13 @@ video {
 @keyframes show {
   from {
     opacity: 0;
-    scale: 50%;
+    scale: 25%;
+    translate: 0 100px;
   }
   to {
     opacity: 1;
     scale: 100%;
+    translate: 0 0;
   }
 }
 h1 {
@@ -717,7 +927,7 @@ h1 {
   view-timeline-axis: block;
   animation-timeline: --image;
   animation-name: show;
-  animation-range: entry 25% cover 60%;
+  animation-range: entry 30% cover 50%;
   animation-fill-mode: both;
 }
 
@@ -726,7 +936,7 @@ p {
   view-timeline-axis: block;
   animation-timeline: --image;
   animation-name: show;
-  animation-range: entry 25% cover 60%;
+  animation-range: entry 30% cover 50%;
   animation-fill-mode: both;
 }
 
@@ -735,7 +945,7 @@ img {
   view-timeline-axis: block;
   animation-timeline: --image;
   animation-name: show;
-  animation-range: entry 25% cover 60%;
+  animation-range: entry 30% cover 50%;
   animation-fill-mode: both;
 }
 
