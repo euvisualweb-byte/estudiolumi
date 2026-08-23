@@ -256,7 +256,7 @@ body {
   display: inline-block;
   min-height: 40px;
   width: 40px;
-  background-color: var(--variable-color8);
+  background-color: var(--variable-color13);
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
@@ -288,12 +288,11 @@ body {
 }
 /* FOOTER NIDU */
 .footer1 {
-  background-image: url("img/FONDO NIDU 1.WEBP");
   background-position: center center;
   background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--variable-color12);
+  background-color: var(--variable-color9);
   padding: 50px 0;
 }
 
@@ -310,10 +309,10 @@ body {
 .footer1-links h4 {
   font-family: montserrat, sans-serif;
   font-size: 20px;
-  color: var(--variable-color13);
+  color: var(--variable-color10);
   margin-bottom: 10px;
   font-weight: 500;
-  border-bottom: 1px solid var(--variable-color1);
+  border-bottom: 1px solid var(--variable-color12);
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -322,14 +321,14 @@ body {
   font-family: montserrat, sans-serif;
   font-size: 14px;
   text-decoration: none;
-  color: var(--variable-color13);
+  color: var(--variable-color12);
   display: block;
   margin-bottom: 15px;
   transition: all 0.3s ease;
 }
 
 .footer1-links ul li a:hover {
-  color: var(--variable-color1);
+  color: var(--variable-color10);
   padding-left: 6px;
 }
 
@@ -347,18 +346,17 @@ body {
 }
 
 .social1-link a:hover {
-  background-color: var(--variable-color1);
+  background-color: var(--variable-color10);
 }
 
 .container21 .grupo-4 {
-  background-image: url("img/FONDO NIDU 1.WEBP");
+  margin-top: auto;
+  transform: none;
   background-position: center center;
   background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--variable-color13);
   justify-content: center;
-  padding: 10px 10px;
   text-align: center;
   color: #ffffff;
 }
@@ -507,7 +505,8 @@ body {
   font-size: 3rem;
   color: var(--variable-color2, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
+  padding: 20px 20px;
 }
 
 .promo h2 {
@@ -518,6 +517,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   text-transform: capitalize;
+  padding: 20px 20px;
 }
 
 .promo p {
@@ -526,6 +526,7 @@ body {
   text-align: center;
   margin-bottom: 20px;
   font-family: montserrat, sans-serif;
+  padding: 20px 20px;
 }
 
 button {
@@ -596,20 +597,23 @@ video {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
+  padding: 0 10%;
 }
 
 .promo1 h1 {
   font-size: 4rem;
-  color: var(--variable-color11, rgb(182, 179, 179));
+  color: var(--variable-color13, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
   font-weight: 900;
+  padding: 20px 20px;
 }
 
 .promo1 h2 {
   font-size: 3rem;
-  color: var(--variable-color10, rgb(182, 179, 179));
+  color: var(--variable-color13, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
   font-weight: 900;
+  padding: 20px 20px;
 }
 
 .promo1 p {
@@ -618,6 +622,7 @@ video {
   text-align: center;
   margin-bottom: 20px;
   font-family: montserrat, sans-serif;
+  padding: 20px 20px;
 }
 
 button {
@@ -905,7 +910,7 @@ video {
 }
 
 .scroll img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin-bottom: 20px;
 }
@@ -945,7 +950,7 @@ img {
   view-timeline-axis: block;
   animation-timeline: --image;
   animation-name: show;
-  animation-range: entry 30% cover 50%;
+  animation-range: entry 10% cover 40%;
   animation-fill-mode: both;
 }
 

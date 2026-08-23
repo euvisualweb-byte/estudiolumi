@@ -25,7 +25,7 @@
 }   
 
 .scroll img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin-bottom: 20px;
 }
@@ -72,7 +72,7 @@ img {
     animation-timeline: --image;
     animation-name: show;
 
-    animation-range: entry 30% cover 50%;
+    animation-range: entry 10% cover 40%;
     animation-fill-mode: both;
 }
 
