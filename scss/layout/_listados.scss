@@ -1,0 +1,31 @@
+
+.mi-contenedor {
+  max-width: 1600px;
+  margin: 20px 0;
+  background-color: var(--variable-color3, rgb(255, 255, 255));
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.mi-contenedor h2 {
+  font-family: montserrat, serif;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.mi-contenedor ul {
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.mi-contenedor li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+.mi-contenedor li:last-child {
+  border-bottom: none;
+}
