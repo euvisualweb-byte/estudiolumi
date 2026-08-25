@@ -95,9 +95,25 @@ p {
   width: 100vw;
   max-width: max-content;
   padding: 0px 20px;
+  margin-top: 100px;
   box-shadow: #161616;
   height: auto;
   margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.container8 {
+  width: 100vw;
+  max-width: max-content;
+  padding: 0px 20px;
+  margin-top: 100px;
+  box-shadow: #161616;
+  height: auto;
+  margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
