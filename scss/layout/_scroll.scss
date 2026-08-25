@@ -15,6 +15,16 @@
     margin-bottom: 20px;
 }
 
+.scroll h2  {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--variable-color6);
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+
 .scroll p {
     font-size: 1rem;
     font-weight: 500;
@@ -44,6 +54,17 @@
 }
 
 h1 {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 30% cover 50%;
+    animation-fill-mode: both;
+}
+
+h2 {
     view-timeline-name: --image;
     view-timeline-axis: block;
 

@@ -272,7 +272,7 @@ body {
 .container11 .grupo-2 {
   background-color: var(--variable-color6);
   justify-content: center;
-  padding: 10px 10px;
+  padding: 100px 40px;
   text-align: center;
   color: #ffffff;
 }
@@ -292,7 +292,7 @@ body {
   background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--variable-color9);
+  background-color: var(--variable-color6);
   padding: 50px 0;
 }
 
@@ -309,7 +309,7 @@ body {
 .footer1-links h4 {
   font-family: montserrat, sans-serif;
   font-size: 20px;
-  color: var(--variable-color10);
+  color: var(--variable-color9);
   margin-bottom: 10px;
   font-weight: 500;
   border-bottom: 1px solid var(--variable-color12);
@@ -321,7 +321,7 @@ body {
   font-family: montserrat, sans-serif;
   font-size: 14px;
   text-decoration: none;
-  color: var(--variable-color12);
+  color: var(--variable-color9);
   display: block;
   margin-bottom: 15px;
   transition: all 0.3s ease;
@@ -350,13 +350,9 @@ body {
 }
 
 .container21 .grupo-4 {
-  margin-top: auto;
-  transform: none;
-  background-position: center center;
-  background-repeat: repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: var(--variable-color6);
   justify-content: center;
+  padding: 100px 40px;
   text-align: center;
   color: #ffffff;
 }
@@ -735,6 +731,14 @@ video {
   border-bottom-right-radius: 20px;
 }
 
+.card h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--variable-color6);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .card h2 {
   text-transform: uppercase;
   font-family: montserrat, serif;
@@ -742,6 +746,7 @@ video {
   letter-spacing: 0px;
   font-weight: 200px;
   text-align: center;
+  text-decoration: none;
 }
 
 .card h3 {
@@ -901,6 +906,15 @@ video {
   margin-bottom: 20px;
 }
 
+.scroll h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--variable-color6);
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
 .scroll p {
   font-size: 1rem;
   font-weight: 500;
@@ -928,6 +942,15 @@ video {
   }
 }
 h1 {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 30% cover 50%;
+  animation-fill-mode: both;
+}
+
+h2 {
   view-timeline-name: --image;
   view-timeline-axis: block;
   animation-timeline: --image;
