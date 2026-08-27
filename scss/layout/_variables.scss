@@ -71,8 +71,9 @@ h1 {
     @extend .titulo1;
     color: var(--variable-color6);
     font-family: montserrat, sans-serif;
+    margin-top: 20px;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -151,6 +152,13 @@ p {
     flex-wrap: wrap;
     gap: 20px;
     padding: 10px 10px;
+}
+
+.container3 img {
+    width: 100vh;
+    max-width: 1600px;
+    
+
 }
 
 .container4 {

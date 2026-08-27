@@ -16,6 +16,23 @@
     gap: 20px;
 }
 
+.containercards {
+    background-color: var(--variable-color3);
+    width:100vw;
+    max-width: 1600px;
+    padding: 0px 20px;
+    margin-top: 50px;
+    box-shadow: #161616;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+
 .card {
     border-radius: 20px;
     background: rgb(253, 253, 253);

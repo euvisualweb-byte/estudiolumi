@@ -8,7 +8,7 @@
 }
 
 .scroll h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 800;
     color: var(--variable-color6);
     text-align: center;
@@ -18,17 +18,27 @@
 .scroll h2  {
     font-size: 1.8rem;
     font-weight: 800;
-    color: var(--variable-color6);
+    color: var(--variable-color2);
     text-align: center;
     margin-bottom: 20px;
     text-decoration: none;
 
 }
 
+.scroll h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--variable-color2);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    
+} 
+
 .scroll p {
     font-size: 1rem;
     font-weight: 500;
-    color: var(--variable-color6);
+    color: var(--variable-color2);
     text-align: justify;
     margin-bottom: 20px;
     
@@ -75,6 +85,16 @@ h2 {
     animation-fill-mode: both;
 }
 
+h3 {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 30% cover 50%;
+    animation-fill-mode: both;
+}
 p {
     view-timeline-name: --image;
     view-timeline-axis:block;

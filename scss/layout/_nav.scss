@@ -41,9 +41,9 @@
 .navbar a {
   font-family: "montserrat", sans-serif;
   font-size: 1.1rem;
-  color: var(--variable-color3, rgb(182, 179, 179));
+  color: var(--variable-color8, rgb(27, 27, 27));
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   margin-left: 1.5rem;
 }
 
@@ -55,7 +55,7 @@
   position: absolute;
   right: 5%;
   font-size: 2rem;
-  color: var(--variable-color3, rgb(247, 244, 244));
+  color: var(--variable-color8, rgb(27, 27, 27));
   cursor: pointer;
   display: none;
 }

@@ -62,8 +62,9 @@ main {
 h1 {
   color: var(--variable-color6);
   font-family: montserrat, sans-serif;
+  margin-top: 20px;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 2.4rem;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -106,7 +107,7 @@ p {
   text-decoration: none;
 }
 
-.container8 {
+.container9 {
   width: 100vw;
   max-width: max-content;
   padding: 0px 20px;
@@ -425,9 +426,9 @@ body {
 .navbar a {
   font-family: "montserrat", sans-serif;
   font-size: 1.1rem;
-  color: var(--variable-color3, rgb(182, 179, 179));
+  color: var(--variable-color8, rgb(27, 27, 27));
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   margin-left: 1.5rem;
 }
 
@@ -439,7 +440,7 @@ body {
   position: absolute;
   right: 5%;
   font-size: 2rem;
-  color: var(--variable-color3, rgb(247, 244, 244));
+  color: var(--variable-color8, rgb(27, 27, 27));
   cursor: pointer;
   display: none;
 }
@@ -514,17 +515,17 @@ body {
 }
 
 .promo h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--variable-color2, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
-  font-weight: 800;
-  padding: 20px 20px;
+  font-weight: 900;
+  padding: 10px 10px;
 }
 
 .promo h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
-  color: var(--variable-color2, rgb(182, 179, 179));
+  color: var(--variable-color3, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
   font-weight: 600;
   text-decoration: none;
@@ -536,9 +537,9 @@ body {
   font-size: 1.2rem;
   color: var(--variable-color2, rgb(59, 59, 58));
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: montserrat, sans-serif;
-  padding: 20px 20px;
+  padding: 10px 10px;
 }
 
 button {
@@ -713,6 +714,22 @@ video {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+}
+
+.containercards {
+  background-color: var(--variable-color3);
+  width: 100vw;
+  max-width: 1600px;
+  padding: 0px 20px;
+  margin-top: 50px;
+  box-shadow: #161616;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
 }
 
 .card {
@@ -915,7 +932,7 @@ video {
 }
 
 .scroll h1 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 800;
   color: var(--variable-color6);
   text-align: center;
@@ -925,16 +942,25 @@ video {
 .scroll h2 {
   font-size: 1.8rem;
   font-weight: 800;
-  color: var(--variable-color6);
+  color: var(--variable-color2);
   text-align: center;
   margin-bottom: 20px;
   text-decoration: none;
 }
 
+.scroll h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--variable-color2);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
 .scroll p {
   font-size: 1rem;
   font-weight: 500;
-  color: var(--variable-color6);
+  color: var(--variable-color2);
   text-align: justify;
   margin-bottom: 20px;
 }
@@ -967,6 +993,15 @@ h1 {
 }
 
 h2 {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 30% cover 50%;
+  animation-fill-mode: both;
+}
+
+h3 {
   view-timeline-name: --image;
   view-timeline-axis: block;
   animation-timeline: --image;
