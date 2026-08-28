@@ -1,12 +1,19 @@
 .container8 {
-    width: 100%;
+    width: 100vw;
+    max-width: max-content;
+    padding: 0 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-shadow: black;
+    height: auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10px;
-    padding:20px 20px;
     justify-content: center;
     gap: 20px;
+    text-decoration: none;
 }
+
 
 form {
     padding: 40px 40px;
@@ -32,7 +39,7 @@ label {
 
 input {
     padding: 15px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 20px;
     background-color: var(--variable-color3);
     border: 1px solid var(--variable-color8);
@@ -73,7 +80,7 @@ input::placeholder, textarea::placeholder {
     font-size: 16px;
     color: #edfff0;
     border: 0;
-    border-radius: 0px;
+    border-radius: 10px;
     background-color: var(--variable-color5);;
     cursor: pointer;
 }

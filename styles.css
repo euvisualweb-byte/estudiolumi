@@ -143,6 +143,11 @@ p {
   padding: 10px 10px;
 }
 
+.container3 img {
+  width: 100vh;
+  max-width: 1600px;
+}
+
 .container4 {
   background-color: #fcfcfd;
   width: auto;
@@ -592,7 +597,7 @@ video {
 
 /* PROMO NIDU */
 .promo1 {
-  padding-top: 100px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -614,28 +619,31 @@ video {
 }
 
 .promo1 h1 {
-  font-size: 4rem;
-  color: var(--variable-color13, rgb(182, 179, 179));
+  font-size: 2rem;
+  color: var(--variable-color2, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
   font-weight: 900;
-  padding: 20px 20px;
+  padding: 10px 10px;
 }
 
 .promo1 h2 {
-  font-size: 3rem;
-  color: var(--variable-color13, rgb(182, 179, 179));
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--variable-color12, rgb(182, 179, 179));
   font-family: montserrat, sans-serif;
-  font-weight: 900;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
   padding: 20px 20px;
 }
 
 .promo1 p {
   font-size: 1.2rem;
-  color: var(--variable-color13, rgb(59, 59, 58));
+  color: var(--variable-color2, rgb(59, 59, 58));
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: montserrat, sans-serif;
-  padding: 20px 20px;
+  padding: 10px 10px;
 }
 
 button {
@@ -1029,13 +1037,19 @@ img {
 }
 
 .container8 {
-  width: 100%;
+  width: 100vw;
+  max-width: max-content;
+  padding: 0 20px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  box-shadow: black;
+  height: auto;
+  margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
-  padding: 20px 20px;
   justify-content: center;
   gap: 20px;
+  text-decoration: none;
 }
 
 form {
@@ -1062,7 +1076,7 @@ label {
 
 input {
   padding: 15px 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 20px;
   background-color: var(--variable-color3);
   border: 1px solid var(--variable-color8);
@@ -1102,7 +1116,7 @@ input::placeholder, textarea::placeholder {
   font-size: 16px;
   color: #edfff0;
   border: 0;
-  border-radius: 0px;
+  border-radius: 10px;
   background-color: var(--variable-color5);
   cursor: pointer;
 }

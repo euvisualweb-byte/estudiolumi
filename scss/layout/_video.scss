@@ -101,7 +101,7 @@ video {
 /* PROMO NIDU */
 
  .promo1 {
-    padding-top: 100px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,28 +123,31 @@ video {
 }
 
 .promo1 h1 {
-    font-size: 4rem;
-    color: var(--variable-color13, rgb(182, 179, 179));
+    font-size: 2rem;
+    color: var(--variable-color2, rgb(182, 179, 179));
     font-family: montserrat, sans-serif;
     font-weight: 900;
-    padding: 20px 20px;
+    padding: 10px 10px;
 }
 
 .promo1 h2 {
-    font-size: 3rem;
-    color: var(--variable-color13, rgb(182, 179, 179));
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--variable-color12, rgb(182, 179, 179));
     font-family: montserrat, sans-serif;
-    font-weight: 900;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
     padding: 20px 20px;
-}
+    }
 
 .promo1 p {
     font-size: 1.2rem;
-    color: var(--variable-color13, rgb(59, 59, 58));
+    color: var(--variable-color2, rgb(59, 59, 58));
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: montserrat, sans-serif;
-    padding: 20px 20px;
+    padding: 10px 10px;
 }
 
 
